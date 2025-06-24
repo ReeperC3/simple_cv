@@ -9,6 +9,7 @@
     <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
     <meta name="author" content="Cian Neiland" />
     <title>Home | Simple HTML Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -34,52 +35,55 @@
             <p>html and css</p>
         </section>
 
-        <section class="projects">
-            <h3>Projects</h3>
-            <ul>
-                <li>Proj 1</li>
-                <li>Proj 2</li>
-                <li>Proj 3</li>
-                <li>Proj 4</li>
-                <li>Proj 5</li>
-            </ul>
-        </section>
+        <div class="grid-container">
+            <section class="projects">
+                <h3>Projects</h3>
+                <ul>
+                    <li>Proj 1</li>
+                    <li>Proj 2</li>
+                    <li>Proj 3</li>
+                    <li>Proj 4</li>
+                    <li>Proj 5</li>
+                </ul>
+            </section>
 
-        <section class="work-experience">
-
-            <article>
+            <section class="work-experience">
                 <h3>Work Experience</h3>
-                <h5>roadmaps.sh</h5>
-                <p>Solved all frontend projects</p>
-                <a href="https://roadmap.sh/u/reeperc">Visit my profile</a>
-            </article>
-            
-            <article>
-                <h3>Open Source Work</h3>
-                <h5>github.com</h5>
-                <p>Numerous open source contributions</p>
-                <a href="https://github.com/ReeperC3">Visit my Github profile</a>
-            </article>
 
-        </section>
+                <article>
+                    <h5>roadmaps.sh</h5>
+                    <p>Solved all frontend projects</p>
+                    <a href="https://roadmap.sh/u/reeperc">Visit my profile</a>
+                </article>
+                
+                <article>
+                    <h5>github.com</h5>
+                    <p>Numerous open source contributions</p>
+                    <a href="https://github.com/ReeperC3">Visit my Github profile</a>
+                </article>
 
-        <section class="education">
-            <h3>Education</h3>
-            <p>Currently enrolled in Summerhill College Sligo, going into 3rd Year.</p>
-        </section>
+            </section>
+
+            <section class="education">
+                <h3>Education</h3>
+                <p>Currently enrolled in Summerhill College Sligo, going into 3rd Year.</p>
+            </section>
+        </div>
 
         <aside class="reviews">
             <h2>Teacher Reviews</h2>
-            <blockquote>
-                <p>Great student, really dedicated</p>
-                <footer>Mr. Flynn, English Teacher</footer>
-            </blockquote><blockquote>
-                <p>Very intelligent student, well cultured and very good with people</p>
-                <footer>Mr. McGuinness, History Teacher</footer>
-            </blockquote><blockquote>
-                <p>Fantastic kid, very intelligent and intuitive</p>
-                <footer>Mr. Duffy, Maths Teacher</footer>
-            </blockquote>
+            <div class="reviews-grid-container">
+                <blockquote>
+                    <p>Great student, really dedicated</p>
+                    <footer>Mr. Flynn, English Teacher</footer>
+                </blockquote><blockquote>
+                    <p>Very intelligent student, well cultured and very good with people</p>
+                    <footer>Mr. McGuinness, History Teacher</footer>
+                </blockquote><blockquote>
+                    <p>Fantastic kid, very intelligent and intuitive</p>
+                    <footer>Mr. Duffy, Maths Teacher</footer>
+                </blockquote>
+            </div>
         </aside>
     </main>
 
